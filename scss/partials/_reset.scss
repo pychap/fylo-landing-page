@@ -1,19 +1,16 @@
 /* Thanks to Zell Liew for this reset! */
+
 /*******************
  Box Sizing
  *******************/
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+ html {
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 /*******************
@@ -150,12 +147,9 @@ noscript {
  *******************/
 @media (prefers-reduced-motion: reduce) {
   * {
-    -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
-    -webkit-transition-duration: 0.01ms !important;
-            transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
@@ -176,25 +170,3 @@ noscript {
   overflow: hidden;
   white-space: nowrap;
 }
-
-h1, h2, h3, h4 {
-  font-family: 'Raleway', sans-serif;
-}
-
-body, p, ul, li {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
-}
-
-/* ========= Breakpoints ======= */
-/* mobile:  400px  */
-/* desktop: 700px */
-/*# sourceMappingURL=styles.css.map */
