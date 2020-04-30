@@ -6,6 +6,10 @@
 
 Thanks for checking out this front-end coding challenge.
 
+Git note to self about post-initialization steps (thanks to [Matt Studdert's article](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248)):  
+*  I need to make the connection between your locally initialized project and the remote Git repository on GitHub. To do this, copy the command from the repository setup page that looks like this:git remote add origin git@github.com:username/repository-name.git. Paste it into the command line and hit enter.  
+*  Next, push the code to that repository by typing git push -u origin master and hitting enter.  
+
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
