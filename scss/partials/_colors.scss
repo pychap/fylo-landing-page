@@ -1,12 +1,18 @@
 /* ======== colors ======== */
 /* Primary */
---primary__vry-drk-blue: hsl(243, 87%, 12%);
---primary__desaturated-blue: hsl(238, 22%, 44%);
+:root {
+  --primary__vry-drk-blue: hsl(243, 87%, 12%);
+  --primary__desaturated-blue: hsl(238, 22%, 44%);
 
-/* accent */
---accent__bright-blue: hsl(224, 93%, 58%);
---accent__moderate-cyan: hsl(170, 45%, 43%);
+  /* accent */
+  --accent__bright-blue: hsl(224, 93%, 58%);
+  --accent__moderate-cyan: hsl(170, 45%, 43%);
 
-/* neutral */
---neutral__lite-grayish-blu: hsl(240, 75%, 98%);
---neutral__lite-gray: hsl(0, 0%, 75%);
+  /* neutral */
+  --neutral__lite-grayish-blu: hsl(240, 75%, 98%);
+  --neutral__lite-gray: hsl(0, 0%, 75%);
+
+  /* text */
+  --text__color: hsla(203, 10%, 26%, 1.00);
+  --link-green: hsla(169, 39%, 41%, 1.00);
+} 
