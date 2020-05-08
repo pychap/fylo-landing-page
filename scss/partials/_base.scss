@@ -7,8 +7,17 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: #fff;
+  @media screen and (max-width: 750px) {
+    justify-self: center;
+    max-width: 26ch;
+    font-size: 1rem;
+    text-align: center;
+  }
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted;
 }
